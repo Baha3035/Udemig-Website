@@ -5,50 +5,43 @@
 
 * {
   font-family: $font2;
+  box-sizing: border-box; /* Добавил для лучшего управления размерами */
 }
 
 .navbar {
-  // background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
-  background: linear-gradient(
-    112deg,
-    rgb(50, 61, 61) 10%,
-    rgb(148, 148, 194) 72%
-  );
+  background: linear-gradient(112deg, rgb(50, 61, 61) 10%, rgb(148, 148, 194) 72%);
 
   &-brand {
     font-family: $font2;
   }
+
   &-nav {
     a {
-      color: #27296d;
+      color: white; /* Убрано дублирование цвета */
     }
-  }
-}
-.navbar-nav {
-  a {
-    color: white;
   }
 }
 
 /* CAROUSEL */
-
 .carousel {
   position: relative;
   background-color: white;
+
   img {
     border-radius: 50%;
     width: 100%;
     height: 450px;
     object-fit: cover;
     opacity: 0.7;
+
     @include mobile {
       height: 350px;
     }
   }
 
   &-caption {
-    //carousel-caption
     top: 50%;
+    
     h5,
     p {
       text-shadow: 1px 5px 4px black;
@@ -56,21 +49,20 @@
   }
 }
 
+/* CARD EFFECTS */
 .card {
+  transition: transform 0.8s, box-shadow 0.8s; /* Объединено для упрощения */
+
   &:hover {
-    @include hover;
-    box-shadow: 2px 2px 15px rgb(228, 223, 223);
+    @include hover; /* Убедись, что это миксин корректно работает */
+    box-shadow: 2px 2px 15px rgba(228, 223, 223, 0.5);
   }
 }
 
 /* TILE */
 .title {
-  background: linear-gradient(
-    115deg,
-    /* saat yonunde derece */ rgb(34, 34, 34) 7.3%,
-    rgb(0, 40, 60) 51.6%,
-    rgb(0, 143, 213) 93.4%
-  );
+  background: linear-gradient(115deg, rgb(34, 34, 34) 7.3%, rgb(0, 40, 60) 51.6%, rgb(0, 143, 213) 93.4%);
+  
   .breadcrumb-item::before {
     color: white !important;
   }
@@ -79,27 +71,24 @@
 /* BLOG */
 .blog .card:hover {
   transform: scale(1);
-  box-shadow: 2px 2px 9px rgb(226, 216, 216);
-  transition: ease 0.7s;
+  box-shadow: 2px 2px 9px rgba(226, 216, 216, 0.5);
 }
 
-/* ABOUT CARD EFFECT1 */
+/* ABOUT CARD EFFECT */
 .about {
   .card {
-    box-shadow: 3px 3px 9px rgb(219, 211, 211);
+    box-shadow: 3px 3px 9px rgba(219, 211, 211, 0.5);
+
     &:hover {
       transform: translate(3px, -2px);
-      transition: ease 0.7s;
+      
       img {
-        transition: ease 0.7s;
         transform: translateY(-5px);
       }
-      .card-body {
-        h5 {
-          transition: ease 0.7s;
-          color: green !important;
-          font-weight: 700;
-        }
+
+      .card-body h5 {
+        color: green !important;
+        font-weight: 700;
       }
     }
   }
@@ -107,19 +96,15 @@
 
 /* ACCORDION */
 .accordion {
-  background: linear-gradient(
-    to left,
-    rgba(77, 126, 190, 0.767),
-    rgba(142, 164, 206, 0.623)
-  );
+  background: linear-gradient(to left, rgba(77, 126, 190, 0.767), rgba(142, 164, 206, 0.623));
 }
 
-
+/* LIST LINKS */
 li {
-    a{
-        &:hover{
-            transform: scale(1.1);
-            transition: all .6s;
-        }
+  a {
+    &:hover {
+      transform: scale(1.1);
+      transition: all 0.6s;
     }
+  }
 }
