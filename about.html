@@ -7,9 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="LearnDevZone offers a variety of online courses in web design, programming, and personal development to enhance your skills and career opportunities.">
     <title>LearnDevZone - About Us</title>
+    <link rel="preload" href="image/udemig.png" as="image">
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" as="style">
     <link rel="stylesheet" href="styles/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Add font-display to optimize font loading */
+        @font-face {
+            font-display: swap;
+        }
+    </style>
 </head>
 
 <body>
@@ -59,7 +67,7 @@
             <div class="row text-center">
                 <div class="col-3">
                     <div class="card bg-primary-subtle border-0">
-                        <img src="https://www.svgrepo.com/show/240382/teacher.svg" class="card-img-top px-5" alt="Study Online Icon">
+                        <img src="https://www.svgrepo.com/show/240382/teacher.svg" class="card-img-top px-5" loading="lazy" width="120" height="120" alt="Study Online Icon">
                         <div class="card-body">
                             <h5 class="card-title fs-5 fw-bolder">Study Online</h5>
                             <p class="card-text">Develop skills for careers in various major fields including technology, business, and more.</p>
@@ -68,7 +76,7 @@
                 </div>
                 <div class="col-3">
                     <div class="card bg-primary-subtle border-0">
-                        <img src="https://www.svgrepo.com/show/61264/science.svg" class="card-img-top px-5" alt="Personal Development Icon">
+                        <img src="https://www.svgrepo.com/show/61264/science.svg" class="card-img-top px-5" loading="lazy" width="120" height="120" alt="Personal Development Icon">
                         <div class="card-body">
                             <h5 class="card-title fs-5 fw-bolder">Personal Development</h5>
                             <p class="card-text">Enhance your skills in various disciplines and boost your career potential.</p>
@@ -77,7 +85,7 @@
                 </div>
                 <div class="col-3">
                     <div class="card bg-primary-subtle border-0">
-                        <img src="https://www.svgrepo.com/show/493556/remote-work-airplane-male.svg" class="card-img-top px-5" alt="Free Online Courses Icon">
+                        <img src="https://www.svgrepo.com/show/493556/remote-work-airplane-male.svg" class="card-img-top px-5" loading="lazy" width="120" height="120" alt="Free Online Courses Icon">
                         <div class="card-body">
                             <h5 class="card-title fs-5 fw-bolder">Free Online Courses</h5>
                             <p class="card-text">Access a variety of free courses to advance your knowledge and skills.</p>
@@ -86,7 +94,7 @@
                 </div>
                 <div class="col-3">
                     <div class="card bg-primary-subtle border-0">
-                        <img src="https://www.svgrepo.com/show/375906/support.svg" class="card-img-top px-5" alt="Lifetime Support Icon">
+                        <img src="https://www.svgrepo.com/show/375906/support.svg" class="card-img-top px-5" loading="lazy" width="120" height="120" alt="Lifetime Support Icon">
                         <div class="card-body">
                             <h5 class="card-title fs-5 fw-bolder">Lifetime Support</h5>
                             <p class="card-text">Receive ongoing support throughout your learning journey.</p>
@@ -107,7 +115,7 @@
                 </button>
             </h2>
             <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body fs-5 fw-bolder">From Scratch Development! In this program, kids will learn algorithms, HTML, CSS, JS, and GITHUB for web technologies. They will have real projects during the program. After this course, they can develop projects. If they successfully complete the course, they will have the opportunity to participate in a recommendation programming program. Learning Outcomes: Structural, Analytical, Logical, Systematic, and Algorithmic Thinking. Solving Complex Problems and Creating Solutions. Teamwork and Communication Skills.</div>
+                <div class="accordion-body fs-5 fw-bolder">From Scratch Development! In this program, kids will learn algorithms, HTML, CSS, JS, and GITHUB for web technologies...</div>
             </div>
         </div>
         <div class="accordion-item my-2 rounded-5">
@@ -117,7 +125,7 @@
                 </button>
             </h2>
             <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body fs-5 fw-bolder">In this course, learners will dive into programming languages like Python, Java, and C#. The program emphasizes problem-solving and real-world application development. Learning Outcomes: Effective communication skills, Ability to work in teams, and Computational thinking.</div>
+                <div class="accordion-body fs-5 fw-bolder">In this course, learners will dive into programming languages like Python, Java, and C#...</div>
             </div>
         </div>
         <div class="accordion-item my-2 rounded-5">
@@ -127,7 +135,7 @@
                 </button>
             </h2>
             <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body fs-5 fw-bolder">This course is designed to improve essential skills for personal and professional growth, including time management, goal setting, and communication. Learning Outcomes: Enhanced productivity, Emotional intelligence, and Self-motivation skills.</div>
+                <div class="accordion-body fs-5 fw-bolder">This course is designed to improve essential skills for personal and professional growth...</div>
             </div>
         </div>
     </div>
@@ -138,30 +146,13 @@
             <p class="mb-0">Follow Us:</p>
             <a href="https://facebook.com" class="text-decoration-none text-light mx-2"><i class="fa-brands fa-facebook"></i></a>
             <a href="https://twitter.com" class="text-decoration-none text-light mx-2"><i class="fa-brands fa-twitter"></i></a>
-            <a href="https://linkedin.com" class="text-decoration-none text-light mx-2"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://instagram.com" class="text-decoration-none text-light mx-2"><i class="fa-brands fa-instagram"></i></a>
+            <p class="mb-0">LearnDevZone &copy; 2024</p>
         </div>
-        <p>&copy; 2024 LearnDevZone. All rights reserved.</p>
     </footer>
 
-    <!-- Yandex.Metrika counter -->
-    <script type="text/javascript">
-        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-        m[i].l=1*new Date();
-        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-        
-        ym(98769930, "init", {
-            clickmap:true,
-            trackLinks:true,
-            accurateTrackBounce:true
-        });
-    </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/98769930" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-    <!-- /Yandex.Metrika counter -->
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz4fnFO9gyb8K8Rz6Ko5dFlkZ9dmIQqq8ZT83gA2q4N8TUl3P1g9x2/V0U" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-1qZBQyLg5z9Kt0h/fC9zjE5fWbMS41JToYfPZc6c1PrZc7C6EibbbSlSxTXYTIFZ" crossorigin="anonymous"></script>
+    <!-- JavaScript - Asynchronously Load Non-Essential Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" defer></script>
 </body>
 
 </html>
