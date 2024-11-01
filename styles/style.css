@@ -121,3 +121,8 @@ img {
     height: 100%;
   }
 } */
+
+/* This is only to reduce layout shift */
+#homepage-banner h1 {
+  min-height: 100px;
+}
