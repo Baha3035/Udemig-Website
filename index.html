@@ -8,6 +8,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online Programming Courses - LearnDevZone</title>
     <meta name="description" content="Explore our online programming courses. Join LearnDevZone for free programming courses and enhance your skills today!">
+    <!-- Additional meta tags for better SEO -->
+    <meta name="keywords" content="programming courses, online learning, coding tutorials, web development, software engineering">
+    <meta name="author" content="LearnDevZone">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.learndevzone.com/" />
+
+    <!-- Organization Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "LearnDevZone",
+        "url": "https://www.learndevzone.com",
+        "logo": "https://www.learndevzone.com/image/udemig.png",
+        "sameAs": [
+            "https://www.instagram.com/learndevzone",
+            "https://www.facebook.com/learndevzone",
+            "https://twitter.com/learndevzone",
+            "https://wa.me/1234567890"
+        ],
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "United States"
+        }
+    }
+    </script>
+
+    <!-- Breadcrumb Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [{
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.learndevzone.com"
+        }]
+    }
+    </script>
 
     <!-- Critical CSS Preload for Above-the-Fold Content -->
     <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -26,7 +66,6 @@
         .text-success { color: #198754 !important; }
         .fw-bold { font-weight: 700 !important; }
         .display-4 { font-size: 2.5rem !important; }
-        /* Add any additional above-the-fold custom styles here */
     </style>
 </head>
 
@@ -60,6 +99,15 @@
         </div>
     </nav>
 
+    <!-- Breadcrumb -->
+    <nav aria-label="breadcrumb" class="bg-light py-2">
+        <div class="container">
+            <ol class="breadcrumb mb-0">
+                <li class="breadcrumb-item active" aria-current="page">Home</li>
+            </ol>
+        </div>
+    </nav>
+
     <!-- BANNER -->
     <div class="banner my-5">
         <div class="container">
@@ -67,18 +115,16 @@
                 <div class="col-md-6 col-12" id="homepage-banner">
                     <span class="text-success fw-bold">EXPERT TRAINING</span>
                     <h1 class="display-4 fw-semibold lh-base">The easiest way to learn new skills with Online Programming Courses!</h1>
-                    <p class="fw-light">One of the most important areas we can develop as professionals is our ability to access and share knowledge. Join us for our <strong>free programming courses</strong> to kickstart your learning journey.</p>
+                    <p class="fw-light">One of the most important areas we can develop as professionals is our ability to access and share knowledge. Join us for our <strong>free programming courses</strong> to kickstart your learning journey. Our platform offers comprehensive learning experiences designed to help you master programming languages, frameworks, and development tools. With expert instructors and hands-on projects, you'll gain practical skills that are in high demand in today's tech industry.</p>
                     <a href="/courses.html" class="btn bg-primary-subtle fw-bolder p-3">OUR COURSES</a>
                 </div>
-                <!-- This is where you should remove after -->
                 <div class="col-md-6 col-12 pt-2">
-                    <img src="image/slayt1.webp" class="d-block w-100 img-fluid" alt="Expert Teacher" width="600" height="400">
+                    <img src="image/slayt1.webp" class="d-block w-100 img-fluid" alt="Expert Teacher demonstrating programming concepts" width="600" height="400">
                     <div class="text-center mt-2">
-                        <h5 class="fw-bolder">Expert Teacher</h5>
-                        <p>Develop skills for careers in various main branches, including computers.</p>
+                        <h2 class="fw-bolder h5">Learn from Expert Teachers</h2>
+                        <p>Develop skills for careers in various main branches, including computers, web development, mobile applications, and data science.</p>
                     </div>
                 </div>
-                <!-- Ends here -->
             </div>
         </div>
     </div>
@@ -88,24 +134,24 @@
         <div class="container">
             <div class="row text-white">
                 <div class="col d-flex flex-column align-items-center py-4">
-                    <img src="https://www.svgrepo.com/show/475729/camera.svg" width="64" alt="Instructors Icon">
+                    <img src="https://www.svgrepo.com/show/475729/camera.svg" width="64" alt="Professional Instructors Icon">
                     <p class="fs-1">90</p>
-                    <span class="text-light fs-5 text-center">Instructors</span> <!-- Changed to text-light -->
+                    <span class="text-light fs-5 text-center">Professional Instructors</span>
                 </div>
                 <div class="col d-flex flex-column align-items-center py-4">
-                    <img src="https://www.svgrepo.com/show/448792/layers.svg" width="64" alt="Courses Icon">
+                    <img src="https://www.svgrepo.com/show/448792/layers.svg" width="64" alt="Available Programming Courses Icon">
                     <p class="fs-1">1450</p>
-                    <span class="text-light fs-5 text-center">Free Programming Courses</span> <!-- Changed to text-light -->
+                    <span class="text-light fs-5 text-center">Free Programming Courses</span>
                 </div>
                 <div class="col d-flex flex-column align-items-center py-4">
-                    <img src="https://www.svgrepo.com/show/475784/flag.svg" width="64" alt="Users Icon">
+                    <img src="https://www.svgrepo.com/show/475784/flag.svg" width="64" alt="Active Users Icon">
                     <p class="fs-1">5697</p>
-                    <span class="text-light fs-5 text-center">Registered Users</span> <!-- Changed to text-light -->
+                    <span class="text-light fs-5 text-center">Active Registered Users</span>
                 </div>
                 <div class="col d-flex flex-column align-items-center py-4">
-                    <img src="https://www.svgrepo.com/show/442204/help-browser-symbolic.svg" width="64" alt="Satisfaction Icon">
+                    <img src="https://www.svgrepo.com/show/442204/help-browser-symbolic.svg" width="64" alt="Student Satisfaction Icon">
                     <p class="fs-1">100%</p>
-                    <span class="text-light fs-5 text-center">Satisfaction Rate</span> <!-- Changed to text-light -->
+                    <span class="text-light fs-5 text-center">Student Satisfaction Rate</span>
                 </div>
             </div>            
         </div>
@@ -122,7 +168,7 @@
             <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2">
                 <div class="col">
                     <div class="card">
-                        <img src="image/blog2.jpg" class="card-img-top img-fluid" loading="lazy" alt="Vaccine Will Not Help Reopen Anything" width="300" height="200">
+                        <img src="image/blog2.jpg" class="card-img-top img-fluid" loading="lazy" alt="Article about vaccine impact on reopening" width="300" height="200">
                         <div class="card-body bg-primary-subtle">
                             <span class="card-calender" style="font-size: 12px;">Written by <b class="text-success">Mehmet Can Seyhan</b> May 9, 2022</span>
                             <p class="card-text pt-4 fs-3 fw-bolder">Vaccine Will Not Help Reopen Anything</p>
@@ -131,7 +177,7 @@
                 </div>
                 <div class="col">
                     <div class="card">
-                        <img src="image/blog3.jpg" class="card-img-top img-fluid" loading="lazy" alt="The Ultimate Guide to Data Science" width="300" height="200">
+                        <img src="image/blog3.jpg" class="card-img-top img-fluid" loading="lazy" alt="Comprehensive guide to Data Science concepts" width="300" height="200">
                         <div class="card-body bg-primary-subtle">
                             <span class="card-calender" style="font-size: 12px;">Written by <b class="text-success">Mehmet Can Seyhan</b> May 9, 2022</span>
                             <p class="card-text pt-4 fs-3 fw-bolder">The Ultimate Guide to Data Science</p>
@@ -140,7 +186,7 @@
                 </div>
                 <div class="col">
                     <div class="card">
-                        <img src="image/blog4.jpg" class="card-img-top img-fluid" loading="lazy" alt="Artificial Intelligence: A Future Reality" width="300" height="200">
+                        <img src="image/blog4.jpg" class="card-img-top img-fluid" loading="lazy" alt="Article exploring the future of Artificial Intelligence" width="300" height="200">
                         <div class="card-body bg-primary-subtle">
                             <span class="card-calender" style="font-size: 12px;">Written by <b class="text-success">Mehmet Can Seyhan</b> May 9, 2022</span>
                             <p class="card-text pt-4 fs-3 fw-bolder">Artificial Intelligence: A Future Reality</p>
@@ -156,13 +202,13 @@
         <div class="container">
             <p class="mb-0 pt-4">Copyright &copy; 2024, LearnDevZone. All Rights Reserved.</p>
             <div class="py-2">
-                <a href="https://www.instagram.com/" target="_blank" class="text-light me-3" aria-label="Instagram">
+                <a href="https://www.instagram.com/learndevzone" target="_blank" rel="noopener" class="text-light me-3" aria-label="Follow us on Instagram">
                     <i class="fab fa-instagram"></i>
                 </a>
-                <a href="https://twitter.com/" target="_blank" class="text-light me-3" aria-label="Twitter">
+                <a href="https://twitter.com/learndevzone" target="_blank" rel="noopener" class="text-light me-3" aria-label="Follow us on Twitter">
                     <i class="fab fa-twitter"></i>
                 </a>
-                <a href="https://www.facebook.com/" target="_blank" class="text-light" aria-label="Facebook">
+                <a href="https://www.facebook.com/learndevzone" target="_blank" rel="noopener" class="text-light" aria-label="Follow us on Facebook">
                     <i class="fab fa-facebook"></i>
                 </a>
             </div>
@@ -181,7 +227,7 @@
             clickmap:true,
             trackLinks:true,
             accurateTrackBounce:true
-        });ssssss
+        });
     </script>
     <noscript><div><img src="https://mc.yandex.ru/watch/98769930" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
