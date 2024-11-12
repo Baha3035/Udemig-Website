@@ -5,10 +5,70 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LearnDevZone</title>
+    <title>Contact Us - LearnDevZone</title>
+    <meta name="description" content="Get in touch with LearnDevZone. Contact our team for questions about our programming courses, technical support, or partnership opportunities.">
+    <meta name="keywords" content="contact learndevzone, programming courses support, coding education contact">
+    <link rel="canonical" href="https://www.learndevzone.com/contact" />
+
+    <!-- Organization Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "LearnDevZone",
+        "url": "https://www.learndevzone.com",
+        "logo": "https://www.learndevzone.com/image/udemig.png",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+46 70 431 2038",
+            "contactType": "customer service",
+            "email": "info@learndevzone.dev",
+            "areaServed": "SE",
+            "availableLanguage": ["en"]
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "Sweden",
+            "addressLocality": "Stockholm"
+        },
+        "sameAs": [
+            "https://www.instagram.com/learndevzone",
+            "https://www.facebook.com/learndevzone",
+            "https://twitter.com/learndevzone",
+            "https://linkedin.com/company/learndevzone"
+        ]
+    }
+    </script>
+
+    <!-- Breadcrumb Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [{
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.learndevzone.com"
+        },
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Contact",
+            "item": "https://www.learndevzone.com/contact"
+        }]
+    }
+    </script>
+
+    <!-- Critical CSS Preload -->
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"></noscript>
+    
     <link rel="stylesheet" href="styles/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Defer Font Awesome -->
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></noscript>
 </head>
 
 <body>
@@ -17,7 +77,7 @@
         <div class="container">
             <div class="d-flex flex-column align-items-center">
                 <img src="image/udemig.png" width="72" height="45" alt="LearnDevZone Logo">
-                <a class="navbar-brand fs-6 fw-bold p-0 text-white" style="font-size: 20px;" href="#top">LearnDevZone</a>
+                <a class="navbar-brand fs-6 fw-bold p-0 text-white" href="/">LearnDevZone</a>
             </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -35,7 +95,7 @@
                     </li>
                     <li class="nav-item"><a class="nav-link text-uppercase" href="/blog.html">Blog</a></li>
                     <li class="nav-item"><a class="nav-link" href="/about.html">ABOUT US</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/contact.html">CONTACT US</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/courses.html">COURSES</a></li>
                 </ul>
             </div>
         </div>
@@ -47,20 +107,20 @@
             <h1 class="display-4 text-white">Contact Us</h1>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="#" class="text-decoration-none text-warning">Home</a></li>
+                    <li class="breadcrumb-item"><a href="/" class="text-decoration-none text-warning">Home</a></li>
                     <li class="breadcrumb-item active text-white" aria-current="page">Contact</li>
                 </ol>
             </nav>
         </div>
     </div>
 
-    <!-- MAPS -->
+    <!-- Main Content -->
     <div class="contact my-5">
         <div class="container">
-            <!-- <iframe class="w-100 rounded-5" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2035.21672694905!2d18.066198577353862!3d59.329335411020054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9d5f2a9bf64d%3A0x37f40d46a579ad25!2sGustav%20Adolfs%20torg%2C%20Stockholm%2C%20Sweden!5e0!3m2!1sen!2str!4v1685399707886!5m2!1sen!2str" width="600" height="450" style="border:0;" allowfullscreen loading="lazy"></iframe> -->
             <div class="d-flex flex-column align-items-center mt-3">
-                <span class="text-uppercase fw-bolder text-success fs-3">Contact Us</span>
-                <h1 class="w-75 text-center fw-semibold fs-4">Contact us for more information about our courses</h1>
+                <span class="text-uppercase fw-bolder text-success fs-3">Get in Touch</span>
+                <h2 class="w-75 text-center fw-semibold fs-4">Have questions about our programming courses? We're here to help!</h2>
+                <p class="text-center mt-3">At LearnDevZone, we believe in providing comprehensive support to our students throughout their learning journey. Whether you have questions about our course content, need technical assistance, or want to explore partnership opportunities, our dedicated team is here to help. We strive to respond to all inquiries within 24 hours during business days.</p>
             </div>
         </div>
     </div>
@@ -73,91 +133,87 @@
                     <div class="d-flex flex-column gap-2">
                         <span class="fs-6 fw-light">Our Email Address</span>
                         <p class="fs-5 fw-bolder">info@learndevzone.dev</p>
+                        <p>For general inquiries and support</p>
                     </div>
                     <hr class="text-secondary">
                     <div class="d-flex flex-column gap-2">
                         <span class="fs-6 fw-light">Call us</span>
                         <p class="fs-5 fw-semibold">+46 70 431 2038</p>
+                        <p>Available Monday to Friday, 9:00 AM - 5:00 PM CET</p>
                     </div>
                     <hr class="text-secondary">
                     <div class="d-flex flex-column gap-2">
                         <span class="fs-6 fw-light">Corporate Office</span>
                         <p class="fs-5 fw-semibold">Stockholm, Sweden</p>
+                        <p>Our main office is located in the heart of Stockholm's tech district</p>
                     </div>
                 </div>
                 <div class="col-12 col-lg-8">
-                    <div class="row">
-                        <div class="col-lg-6 col-12">
-                            <div class="mb-3">
-                                <input type="text" class="form-control bg-secondary-subtle p-3" id="name" placeholder="Your Name" required>
+                    <form id="contactForm">
+                        <div class="row">
+                            <div class="col-lg-6 col-12">
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Your Name</label>
+                                    <input type="text" class="form-control bg-secondary-subtle p-3" id="name" placeholder="Enter your full name" required>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-12">
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email Address</label>
+                                    <input type="email" class="form-control bg-secondary-subtle p-3" id="email" placeholder="Enter your email" required>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-12">
-                            <div class="mb-3">
-                                <input type="email" class="form-control bg-secondary-subtle p-3" id="email" placeholder="Email" required>
-                            </div>
+                        <div class="mb-4">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" class="form-control p-3 bg-secondary-subtle" id="subject" placeholder="What is your message about?" required>
                         </div>
-                    </div>
-                    <div class="mb-4">
-                        <input type="text" class="form-control p-3 bg-secondary-subtle" id="subject" placeholder="Subject" required>
-                    </div>
-                    <div class="mb-4">
-                        <textarea class="form-control p-4 bg-secondary-subtle" id="message" placeholder="Message" rows="3" required></textarea>
-                    </div>
-                    <button class="btn btn-success p-3">Send Message</button>
+                        <div class="mb-4">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control p-4 bg-secondary-subtle" id="message" placeholder="Type your message here" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-success p-3">Send Message</button>
+                    </form>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- FOOTER -->
-    <div class="bg-dark text-white">
+    <footer class="bg-dark text-light text-center">
         <div class="container">
-            <footer class="pt-5">
-                <div class="row">
-                    <div class="col-12 col-md-4 mb-3 text-center">
-                        <h5>About Us</h5>
-                        <ul class="nav flex-column">
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Tel: <b class="text-white-50 fw-light">+(46) 70 431 2038</b></a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Email: <b class="text-white-50 fw-light">info@learndevzone.dev</b></a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Location: <b class="text-white-50 fw-light">Stockholm, Sweden</b></a></li>
-                            <li class="nav-item mb-2"><b class="fw-light">Follow us:</b> 
-                                <i class="fa-brands fa-facebook"></i>
-                                <i class="fa-brands fa-twitter"></i>
-                                <i class="fa-brands fa-instagram"></i>
-                                <i class="fa-brands fa-linkedin"></i>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="col-12 col-md-4 mb-3 text-center">
-                        <h5>Explore</h5>
-                        <ul class="nav flex-column">
-                            <li class="nav-item mb-2"><a href="/index.html" class="nav-link p-0 text-white">Home</a></li>
-                            <li class="nav-item mb-2"><a href="/about.html" class="nav-link p-0 text-white">About</a></li>
-                            <li class="nav-item mb-2"><a href="/blog.html" class="nav-link p-0 text-white">Blog</a></li>
-                            <li class="nav-item mb-2"><a href="/contact.html" class="nav-link p-0 text-white">Contact</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="col-12 col-md-4 mb-3 text-center">
-                        <h5>Resources</h5>
-                        <ul class="nav flex-column">
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Privacy Policy</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Terms of Use</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">FAQ</a></li>
-                        </ul>
+            <div class="row py-4">
+                <div class="col-12 col-md-4 mb-3">
+                    <h5>Connect With Us</h5>
+                    <div class="mt-3">
+                        <a href="https://www.facebook.com/learndevzone" target="_blank" rel="noopener" class="text-light me-3" aria-label="Follow us on Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://twitter.com/learndevzone" target="_blank" rel="noopener" class="text-light me-3" aria-label="Follow us on Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://www.instagram.com/learndevzone" target="_blank" rel="noopener" class="text-light me-3" aria-label="Follow us on Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://linkedin.com/company/learndevzone" target="_blank" rel="noopener" class="text-light" aria-label="Follow us on LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
                     </div>
                 </div>
-                <div class="text-center">
-                    <p class="mb-0 text-white-50">&copy; 2024 LearnDevZone. All rights reserved.</p>
+                <div class="col-12 col-md-4 mb-3">
+                    <p class="mb-1">Email: info@learndevzone.dev</p>
+                    <p class="mb-1">Phone: +46 70 431 2038</p>
+                    <p>Location: Stockholm, Sweden</p>
                 </div>
-            </footer>
+                <div class="col-12 col-md-4">
+                    <p>&copy; 2024 LearnDevZone. All rights reserved.</p>
+                </div>
+            </div>
         </div>
-    </div>
+    </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7k4j7T6MfSSzogwFY9F2O4/1Y1kO4i4xz1F3QkJh8p9/tgI6R8FlGeV7do3ZZTL7" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-76Oe5MZhZKoZRsj/mgD4m4pOFM4L+6NPiwHxlT1ybr4M+L2/G9C7eL8m1IxvjjS7" crossorigin="anonymous"></script>
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoY9I/hg9hdn3Qx1kzdoTEhLL+hJFc5F8vgkaSo5aqQEOjM" crossorigin="anonymous" async></script>
 
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript">
@@ -174,7 +230,5 @@
         });
     </script>
     <noscript><div><img src="https://mc.yandex.ru/watch/98769930" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-    <!-- /Yandex.Metrika counter -->
 </body>
-
 </html>
